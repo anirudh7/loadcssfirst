@@ -13,7 +13,7 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.plugin.plugin');
 jimport('joomla.environment.response');
 
-class plgSystemCssFirst extends JPlugin 
+class plgSystemLoadCssFirst extends JPlugin 
 {
     function onContentPrepare($context, &$row, &$params, $page = 0)
     {
