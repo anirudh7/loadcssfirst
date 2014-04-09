@@ -17,7 +17,6 @@
     <scriptfile>script.install.php</scriptfile>
     <files>
         <filename plugin="loadcssfirst">cssfirst.php</filename>
-        <filename>cssfirst.xml</filename>
         <filename>load.css</filename>
         <filename>load.js</filename>
     </files>
