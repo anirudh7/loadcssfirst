@@ -7,7 +7,7 @@
  */
 defined('_JEXEC') or die();
 
-class plgSystemNoRightClickInstallerScript
+class plgSystemNoLoadCssFirstInstallerScript
 {
     public function install ($parent)
     {
