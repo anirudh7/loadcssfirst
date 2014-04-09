@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Load CSS First</name>
+    <author>Anirdh Kumar</author>
+    <creationDate>07 April 2014</creationDate>
+    <copyright>Poor Man's Copyright (C) Anirudh . All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>anirudh7@live.com</authorEmail>
+    <authorUrl>www.secondjob.co.nz</authorUrl>
+    <version>1.0.0</version>
+    <description>Sometimes If you’re working with a lot CSS transitions on a page, you may notice some transitions run when the page loads.
+        Most of the time this happens when you have transitions set on structural elements of a page.
+        Although it’s a minor thing, it’s still kinda annoying.
+        There’s a way we can rectify this using a a combination of CSS and a wee bit of JavaScript (no jQuery)
+        and this extension is not possible without <![CDATA[<h1><a href="http://www.pencilscoop.com/2014/03/prevent-css-transitions-running-on-page-load/" target="_blank">Prevent CSS Transitions Running On Page Load</a></h1>]]>
+    </description>
+    <scriptfile>script.install.php</scriptfile>
+    <files>
+        <filename plugin="loadcssfirst">cssfirst.php</filename>
+        <filename>index.html</filename>
+        <filename>load.css</filename>
+        <filename>load.js</filename>
+    </files>
+
+</extension>
