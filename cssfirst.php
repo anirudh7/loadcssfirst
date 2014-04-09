@@ -18,8 +18,8 @@ class plgSystemCssFirst extends JPlugin
     function onContentPrepare($context, &$row, &$params, $page = 0)
     {
         $document = JFactory::getDocument();
-        $document->addStyleSheet(JURI::base(). "plugins/system/cssfirst/load.css");
-        $document->addScript(JURI::base(). "plugins/system/cssfirst/load.js");
+        $document->addStyleSheet(JURI::base(). "plugins/system/loadcssfirst/load.css");
+        $document->addScript(JURI::base(). "plugins/system/loadcssfirst/load.js");
     }
     function onAfterRender()
     {
