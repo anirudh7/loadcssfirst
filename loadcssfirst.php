@@ -1,8 +1,7 @@
 <?php
 
 /**
-* Created using PhpStorm.
-* User: anirudhmerugu
+* Released under GN/GPL License : http://www.gnu.org/copyleft/gpl.html
 * Date: 7/04/14
 * Time: 11:52 AM
 */
