@@ -19,5 +19,6 @@
         <filename plugin="loadcssfirst">cssfirst.php</filename>
         <filename>load.css</filename>
         <filename>load.js</filename>
+        <filename>cssfirst.xml</filename>
     </files>
 </extension>
