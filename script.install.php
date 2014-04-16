@@ -1,5 +1,6 @@
 <?php
 /**
+ * Released under GN/GPL License : http://www.gnu.org/copyleft/gpl.html
  * Created using PhpStorm.
  * User: anirudhmerugu
  * Date: 9/04/14
